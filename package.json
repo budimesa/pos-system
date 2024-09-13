@@ -7,14 +7,23 @@
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
+        "@primevue/auto-import-resolver": "^4.0.7",
         "@tailwindcss/forms": "^0.5.3",
         "@vitejs/plugin-vue": "^5.0.0",
-        "autoprefixer": "^10.4.12",
+        "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
         "laravel-vite-plugin": "^1.0",
-        "postcss": "^8.4.31",
-        "tailwindcss": "^3.2.1",
+        "postcss": "^8.4.45",
+        "tailwindcss": "^3.4.11",
+        "unplugin-vue-components": "^0.27.4",
         "vite": "^5.0",
         "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "primeicons": "^7.0.0",
+        "primevue": "^4.0.7",
+        "tailwindcss-primeui": "^0.3.4",
+        "vue-multiselect": "^3.0.0",
+        "vue-router": "^4.4.5"
     }
 }
